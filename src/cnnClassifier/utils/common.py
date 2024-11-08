@@ -1,6 +1,6 @@
 import os
-from box.exceptions import BoxValueError 
-import yaml  # type: ignore
+from box.exceptions import BoxValueError # type: ignore
+import yaml   # type: ignore
 from cnnClassifier import logger
 import json
 import joblib # type: ignore
