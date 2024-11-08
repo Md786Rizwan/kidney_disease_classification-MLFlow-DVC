@@ -1,9 +1,9 @@
 import os
 from box.exceptions import BoxValueError 
-import yaml   
+import yaml    # type: ignore
 from cnnClassifier import logger
 import json
-import joblib 
+import joblib  # type: ignore
 from ensure import ensure_annotations 
 from box import ConfigBox 
 from pathlib import Path
