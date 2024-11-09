@@ -1,5 +1,5 @@
 import os
-from box.exceptions import BoxValueError 
+from box.exceptions import BoxValueError # type: ignore
 import yaml    # type: ignore
 from cnnClassifier import logger
 import json
